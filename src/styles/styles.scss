@@ -2,15 +2,21 @@
 @import "./base/settings";
 @import "./base/base";
 
-//COMPONENTS
+        //COMPONENTS//
 @import "./components/auth";
 
-//BUTTONS
+ //BUTTONS
 @import "./components/buttons";
 
-//LINKS
+ //LINKS
 
 @import "./components/links";
 
-//JOURNAL
-@import "./components/journal"
+ //JOURNAL
+@import "./components/journal";
+
+ //NOTHING SELECTED  
+@import "./components/nothing";
+
+//NOTESCREEN
+@import "./components/notes"
