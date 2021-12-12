@@ -2,10 +2,11 @@ import { fileUpload } from "../../helpers/fileUpload";
 import cloudinary from 'cloudinary'
 
 
+const {REACT_APP_API_KEY,REACT_APP_CLOUD_NAME,REACT_APP_API_SECRET} = process.env
 cloudinary.config({ 
-    cloud_name: 'dtmfjiynx', 
-    api_key: '777179292437751', 
-    api_secret: 'B0wfIkVFH5KzCZnZ_sBrv-8n7TU',
+    cloud_name: REACT_APP_CLOUD_NAME, 
+    api_key: REACT_APP_API_KEY, 
+    api_secret: REACT_APP_API_SECRET, 
     secure: true
 });
 
